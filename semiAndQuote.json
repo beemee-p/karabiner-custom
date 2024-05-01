@@ -1,0 +1,34 @@
+{
+  "title": "sanam's Hyper with capslock",
+  "maintainers": [
+    "sanam"
+  ],
+  "author": "simian114@gmail.com",
+  "rules": [
+    {
+      "description": "semicolon and quote",
+      "manipulators": [
+        {
+          "description": "' === (",
+          "type": "basic",
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "grave_accent_and_tilde"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

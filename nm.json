@@ -1,0 +1,34 @@
+{
+  "title": "sanam's Hyper with capslock",
+  "maintainers": [
+    "sanam"
+  ],
+  "author": "simian114@gmail.com",
+  "rules": [
+    {
+      "description": "Hyper nm,. edit",
+      "manipulators": [
+        {
+          "description": "m == delete backspace",
+          "type": "basic",
+          "from": {
+            "key_code": "m",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
