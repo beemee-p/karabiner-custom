@@ -7,8 +7,7 @@
       "description": "Hyper mouse",
       "manipulators": [
         {
-          "description": "mouse left(j)",
-          "type": "basic",
+          "description": "mouse slow left(j)",
           "from": {
             "key_code": "j",
             "modifiers": {
@@ -24,60 +23,14 @@
           "to": [
             {
               "mouse_key": {
-                "x": -2000
+                "x": -500
               }
             }
-          ]
+          ],
+          "type": "basic"
         },
         {
-          "description": "mouse up(i)",
-          "type": "basic",
-          "from": {
-            "key_code": "i",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option",
-                "left_command"
-              ]
-            }
-          },
-          "to": [
-            {
-              "mouse_key": {
-                "y": -2000
-              }
-            }
-          ]
-        },
-        {
-          "description": "mouse down(k)",
-          "type": "basic",
-          "from": {
-            "key_code": "k",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option",
-                "left_command"
-              ]
-            }
-          },
-          "to": [
-            {
-              "mouse_key": {
-                "y": 2000
-              }
-            }
-          ]
-        },
-        {
-          "description": "mouse right(l)",
-          "type": "basic",
+          "description": "mouse slow right(l)",
           "from": {
             "key_code": "l",
             "modifiers": {
@@ -93,16 +46,16 @@
           "to": [
             {
               "mouse_key": {
-                "x": 2000
+                "x": 500
               }
             }
-          ]
+          ],
+          "type": "basic"
         },
         {
-          "description": "command right command == left click",
-          "type": "basic",
+          "description": "mouse slow up(i)",
           "from": {
-            "key_code": "right_command",
+            "key_code": "i",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -110,6 +63,139 @@
                 "right_shift",
                 "right_option",
                 "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "y": -500
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "mouse slow down(i)",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "y": 500
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "mouse left(j)",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "x": -1500
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "mouse up(i)",
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "y": -1500
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "mouse down(k)",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "y": 1500
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "mouse right(l)",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "x": 1500
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "command right command == left click",
+          "from": {
+            "key_code": "e",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
               ]
             }
           },
@@ -117,20 +203,19 @@
             {
               "pointing_button": "button1"
             }
-          ]
+          ],
+          "type": "basic"
         },
         {
           "description": "command n == right click",
-          "type": "basic",
           "from": {
-            "key_code": "n",
+            "key_code": "r",
             "modifiers": {
               "mandatory": [
                 "right_command",
                 "right_control",
                 "right_shift",
-                "right_option",
-                "left_command"
+                "right_option"
               ]
             }
           },
@@ -138,20 +223,19 @@
             {
               "pointing_button": "button2"
             }
-          ]
+          ],
+          "type": "basic"
         },
         {
           "description": "scroll up(m)",
-          "type": "basic",
           "from": {
-            "key_code": "comma",
+            "key_code": "m",
             "modifiers": {
               "mandatory": [
                 "right_command",
                 "right_control",
                 "right_shift",
-                "right_option",
-                "left_command"
+                "right_option"
               ]
             }
           },
@@ -161,20 +245,19 @@
                 "vertical_wheel": -64
               }
             }
-          ]
+          ],
+          "type": "basic"
         },
         {
           "description": "scroll down(,)",
-          "type": "basic",
           "from": {
-            "key_code": "m",
+            "key_code": "comma",
             "modifiers": {
               "mandatory": [
                 "right_command",
                 "right_control",
                 "right_shift",
-                "right_option",
-                "left_command"
+                "right_option"
               ]
             }
           },
@@ -184,11 +267,11 @@
                 "vertical_wheel": 64
               }
             }
-          ]
+          ],
+          "type": "basic"
         },
         {
-          "description": "scroll left(h)",
-          "type": "basic",
+          "description": "scroll a(h)",
           "from": {
             "key_code": "h",
             "modifiers": {
@@ -196,8 +279,7 @@
                 "right_command",
                 "right_control",
                 "right_shift",
-                "right_option",
-                "left_command"
+                "right_option"
               ]
             }
           },
@@ -207,11 +289,11 @@
                 "horizontal_wheel": 64
               }
             }
-          ]
+          ],
+          "type": "basic"
         },
         {
           "description": "scroll right(;)",
-          "type": "basic",
           "from": {
             "key_code": "semicolon",
             "modifiers": {
@@ -219,8 +301,7 @@
                 "right_command",
                 "right_control",
                 "right_shift",
-                "right_option",
-                "left_command"
+                "right_option"
               ]
             }
           },
@@ -230,7 +311,8 @@
                 "horizontal_wheel": -64
               }
             }
-          ]
+          ],
+          "type": "basic"
         }
       ]
     }
