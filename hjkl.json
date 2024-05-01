@@ -1,12 +1,10 @@
 {
-  "title": "sanam's Hyper with capslock",
-  "maintainers": [
-    "sanam"
-  ],
-  "author": "simian114@gmail.com",
+  "title": "Hyper jkl semicolon Navigation",
+  "maintainers": ["raina"],
+  "author": "raina.y.park@gmail.com",
   "rules": [
     {
-      "description": "Hyper jklsemicolon Navigation hello",
+      "description": "Hyper jkl semicolon Navigation",
       "manipulators": [
         {
           "description": "j == left arrow",
@@ -106,9 +104,7 @@
           "to": [
             {
               "key_code": "up_arrow",
-              "modifiers": [
-                "left_option"
-              ]
+              "modifiers": ["left_option"]
             }
           ]
         },
@@ -130,9 +126,7 @@
           "to": [
             {
               "key_code": "down_arrow",
-              "modifiers": [
-                "left_option"
-              ]
+              "modifiers": ["left_option"]
             }
           ]
         },
@@ -154,9 +148,7 @@
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": [
-                "left_option"
-              ]
+              "modifiers": ["left_option"]
             }
           ]
         },
@@ -178,9 +170,7 @@
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": [
-                "left_option"
-              ]
+              "modifiers": ["left_option"]
             }
           ]
         },
@@ -202,9 +192,7 @@
           "to": [
             {
               "key_code": "up_arrow",
-              "modifiers": [
-                "left_shift"
-              ]
+              "modifiers": ["left_shift"]
             }
           ]
         },
@@ -226,9 +214,7 @@
           "to": [
             {
               "key_code": "down_arrow",
-              "modifiers": [
-                "left_shift"
-              ]
+              "modifiers": ["left_shift"]
             }
           ]
         },
@@ -250,9 +236,7 @@
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": [
-                "left_shift"
-              ]
+              "modifiers": ["left_shift"]
             }
           ]
         },
@@ -274,9 +258,7 @@
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": [
-                "left_shift"
-              ]
+              "modifiers": ["left_shift"]
             }
           ]
         }

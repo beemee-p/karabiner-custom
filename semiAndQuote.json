@@ -1,9 +1,7 @@
 {
-  "title": "sanam's Hyper with capslock",
-  "maintainers": [
-    "sanam"
-  ],
-  "author": "simian114@gmail.com",
+  "title": "semicolon and quote",
+  "maintainers": ["raina"],
+  "author": "raina.y.park@gmail.com",
   "rules": [
     {
       "description": "semicolon and quote",

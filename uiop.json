@@ -1,9 +1,7 @@
 {
-  "title": "sanam's Hyper with capslock",
-  "maintainers": [
-    "sanam"
-  ],
-  "author": "simian114@gmail.com",
+  "title": "Hyper uiop Navigation",
+  "maintainers": ["raina"],
+  "author": "raina.y.park@gmail.com",
   "rules": [
     {
       "description": "Hyper uiop",
@@ -25,9 +23,7 @@
           "to": [
             {
               "key_code": "9",
-              "modifiers": [
-                "left_shift"
-              ]
+              "modifiers": ["left_shift"]
             }
           ]
         },
@@ -48,9 +44,7 @@
           "to": [
             {
               "key_code": "0",
-              "modifiers": [
-                "left_shift"
-              ]
+              "modifiers": ["left_shift"]
             }
           ]
         },
@@ -71,9 +65,7 @@
           "to": [
             {
               "key_code": "open_bracket",
-              "modifiers": [
-                "left_shift"
-              ]
+              "modifiers": ["left_shift"]
             }
           ]
         },
@@ -94,9 +86,7 @@
           "to": [
             {
               "key_code": "close_bracket",
-              "modifiers": [
-                "left_shift"
-              ]
+              "modifiers": ["left_shift"]
             }
           ]
         }

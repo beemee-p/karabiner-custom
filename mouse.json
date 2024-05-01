@@ -1,9 +1,7 @@
 {
-  "title": "sanam's Hyper with capslock",
-  "maintainers": [
-    "sanam"
-  ],
-  "author": "simian114@gmail.com",
+  "title": "Hyper mouse",
+  "maintainers": ["raina"],
+  "author": "raina.y.park@gmail.com",
   "rules": [
     {
       "description": "Hyper mouse",

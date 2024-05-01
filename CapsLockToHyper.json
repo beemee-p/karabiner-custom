@@ -1,9 +1,7 @@
 {
-  "title": "sanam's Hyper with capslock",
-  "maintainers": [
-    "sanam"
-  ],
-  "author": "simian114@gmail.com",
+  "title": "Hyper with capslock",
+  "maintainers": ["raina"],
+  "author": "raina.y.park@gmail.com",
   "rules": [
     {
       "description": "CapsLock to Hyper",
@@ -14,19 +12,13 @@
           "from": {
             "key_code": "caps_lock",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "right_shift",
-              "modifiers": [
-                "right_command",
-                "right_control",
-                "right_option"
-              ]
+              "modifiers": ["right_command", "right_control", "right_option"]
             }
           ],
           "to_if_alone": [
@@ -41,9 +33,7 @@
           "from": {
             "key_code": "escape",
             "modifiers": {
-              "optional": [
-                "caps_lock"
-              ],
+              "optional": ["caps_lock"],
               "mandatory": [
                 "right_command",
                 "right_control",
@@ -55,9 +45,7 @@
           "to": [
             {
               "key_code": "caps_lock",
-              "modifiers": [
-                "left_control"
-              ]
+              "modifiers": ["left_control"]
             }
           ]
         },
@@ -78,9 +66,7 @@
           "to": [
             {
               "key_code": "spacebar",
-              "modifiers": [
-                "left_control"
-              ]
+              "modifiers": ["left_control"]
             }
           ]
         },
@@ -102,10 +88,7 @@
           "to": [
             {
               "key_code": "spacebar",
-              "modifiers": [
-                "left_control",
-                "left_command"
-              ]
+              "modifiers": ["left_control", "left_command"]
             }
           ]
         }
