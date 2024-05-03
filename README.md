@@ -1,6 +1,6 @@
 # karabiner-modifications
 
-> 쓸모없는 CapsLock 키를 Hyper 키로 만듦. (Hyper == cmd + ctrl + option + shift)
+> CapsLock 키를 Hyper 키로 만듦. (Hyper == cmd + ctrl + option + shift)
 
 https://ke-complex-modifications.pqrs.org/ 에 다른 설정들 많음...
 
