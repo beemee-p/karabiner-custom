@@ -1,0 +1,141 @@
+// vscode keybidings.json. Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+alt+up", // 커서 10줄 위로
+    "command": "cursorMove",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "value": 10
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+down", // 커서 10줄 아래로
+    "command": "cursorMove",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "value": 10
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+ctrl+i", // 방향키 up
+    "command": "cursorUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+ctrl+k", // 방향키 down
+    "command": "cursorDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+ctrl+j", // 방향키 left
+    "command": "cursorLeft",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+ctrl+l", // 방향키 right
+    "command": "cursorRight",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+right", // 탭이동 right
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "shift+alt+left", // 탭이동 left
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+pagedown",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+shift+up", // 윗줄 copy
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+down", // 아래라인 copy
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && isWeb"
+  },
+  {
+    "key": "ctrl+f12",
+    "command": "workbench.action.gotoLine"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "-workbench.action.gotoLine"
+  },
+  {
+    "key": "ctrl+g", 
+    "command": "editor.action.revealDefinition", // 함수 내부 진입
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "workbench.action.navigateBack" // 커서 히스토리 뒤로 가기
+  },
+  {
+    "key": "ctrl+oem_period",
+    "command": "-notebook.cell.openFailureActions",
+    "when": "notebookCellFocused && notebookCellHasErrorDiagnostics && !notebookCellEditorFocused"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "notebook.cell.copyDown",
+    "when": "notebookEditorFocused && !inputFocus"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-notebook.cell.copyDown",
+    "when": "notebookEditorFocused && !inputFocus"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "-editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "-editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "-editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+alt+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+f",
+    "command": "editor.action.goToTypeDefinition"
+  }
+] // Place your key bindings in this file to override the defaults
